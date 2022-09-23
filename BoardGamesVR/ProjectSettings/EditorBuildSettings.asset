@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Project/Scenes/Chess.unity
+    guid: 4e1776265de14e44898af4247f2b98c7
+  - enabled: 0
+    path: Assets/Oculus/SampleFramework/Usage/Passthrough/Scenes/AugmentedObjects.unity
+    guid: 9afeada2bbd240b4981cfb6abb525418
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 193afb7bcb60504488c30b98ce93083d, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f5d77bf9f05d4024aab7f3262fc7e550, type: 2}

@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 220c53501a6feeb44842c61d7364609c, type: 2}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.40748334, g: 0.4070747, b: 0.4126672, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -283,6 +283,7 @@ GameObject:
   - component: {fileID: 29569031}
   - component: {fileID: 29569033}
   - component: {fileID: 29569032}
+  - component: {fileID: 29569034}
   m_Layer: 0
   m_Name: Pawn (7)
   m_TagString: Untagged
@@ -447,10 +448,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 29569034}
   sceneViewId: 33
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &29569034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 29569024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &32551150
 GameObject:
   m_ObjectHideFlags: 0
@@ -889,6 +907,7 @@ GameObject:
   - component: {fileID: 59814806}
   - component: {fileID: 59814808}
   - component: {fileID: 59814807}
+  - component: {fileID: 59814809}
   m_Layer: 0
   m_Name: Pawn (5)
   m_TagString: Untagged
@@ -1053,10 +1072,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 59814809}
   sceneViewId: 23
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &59814809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59814799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &70897857
 GameObject:
   m_ObjectHideFlags: 0
@@ -1270,6 +1306,7 @@ GameObject:
   - component: {fileID: 103907661}
   - component: {fileID: 103907663}
   - component: {fileID: 103907662}
+  - component: {fileID: 103907664}
   m_Layer: 0
   m_Name: Pawn (3)
   m_TagString: Untagged
@@ -1434,10 +1471,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 103907664}
   sceneViewId: 2
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &103907664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103907654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1001 &104656987
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1598,6 +1652,7 @@ GameObject:
   - component: {fileID: 107902734}
   - component: {fileID: 107902736}
   - component: {fileID: 107902735}
+  - component: {fileID: 107902737}
   m_Layer: 0
   m_Name: Rook (1)
   m_TagString: Untagged
@@ -1762,10 +1817,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 107902737}
   sceneViewId: 20
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &107902737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107902727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!114 &116794465 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8553364197529364881, guid: 885ecae56b16f13428a67de5ae482a72, type: 3}
@@ -1880,7 +1952,7 @@ MonoBehaviour:
   _editor: {fileID: 136936118}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -2156,6 +2228,7 @@ GameObject:
   - component: {fileID: 153552576}
   - component: {fileID: 153552578}
   - component: {fileID: 153552577}
+  - component: {fileID: 153552579}
   m_Layer: 0
   m_Name: Pawn (3)
   m_TagString: Untagged
@@ -2320,10 +2393,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 153552579}
   sceneViewId: 19
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &153552579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 153552569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1001 &161692269
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4043,7 +4133,7 @@ MonoBehaviour:
   _editor: {fileID: 282193088}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.8745098, g: 0.8235294, b: 0.7607843, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -4878,7 +4968,7 @@ MonoBehaviour:
   _editor: {fileID: 302241994}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.8745098, g: 0.8235294, b: 0.7607843, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -5993,6 +6083,7 @@ GameObject:
   - component: {fileID: 375438972}
   - component: {fileID: 375438974}
   - component: {fileID: 375438973}
+  - component: {fileID: 375438975}
   m_Layer: 0
   m_Name: Knight
   m_TagString: Untagged
@@ -6157,10 +6248,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 375438975}
   sceneViewId: 18
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &375438975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375438965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &394503373
 GameObject:
   m_ObjectHideFlags: 0
@@ -6556,7 +6664,7 @@ MonoBehaviour:
   _editor: {fileID: 425643407}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.8745098, g: 0.8235294, b: 0.7607843, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -6719,7 +6827,7 @@ MonoBehaviour:
   _editor: {fileID: 427333109}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -6972,6 +7080,7 @@ GameObject:
   - component: {fileID: 436193767}
   - component: {fileID: 436193769}
   - component: {fileID: 436193768}
+  - component: {fileID: 436193770}
   m_Layer: 0
   m_Name: Bishop (1)
   m_TagString: Untagged
@@ -7136,10 +7245,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 436193770}
   sceneViewId: 22
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &436193770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436193760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &439024169
 GameObject:
   m_ObjectHideFlags: 0
@@ -7452,6 +7578,7 @@ GameObject:
   - component: {fileID: 452971531}
   - component: {fileID: 452971533}
   - component: {fileID: 452971532}
+  - component: {fileID: 452971534}
   m_Layer: 0
   m_Name: Bishop
   m_TagString: Untagged
@@ -7616,10 +7743,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 452971534}
   sceneViewId: 4
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &452971534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452971524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1001 &456121998
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8420,6 +8564,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1415831502094432815, guid: a912065df8e0b4b4385507810e31c60d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2262886113408362809, guid: a912065df8e0b4b4385507810e31c60d, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -8427,6 +8575,10 @@ PrefabInstance:
     - target: {fileID: 2262886113408362809, guid: a912065df8e0b4b4385507810e31c60d, type: 3}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2262886113736088760, guid: a912065df8e0b4b4385507810e31c60d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4981534101861706115, guid: a912065df8e0b4b4385507810e31c60d, type: 3}
       propertyPath: m_IsActive
@@ -8602,6 +8754,7 @@ GameObject:
   - component: {fileID: 524387679}
   - component: {fileID: 524387681}
   - component: {fileID: 524387680}
+  - component: {fileID: 524387682}
   m_Layer: 0
   m_Name: Bishop
   m_TagString: Untagged
@@ -8766,10 +8919,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 524387682}
   sceneViewId: 21
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &524387682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524387672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &530164590
 GameObject:
   m_ObjectHideFlags: 0
@@ -9063,6 +9233,7 @@ GameObject:
   - component: {fileID: 555068663}
   - component: {fileID: 555068665}
   - component: {fileID: 555068664}
+  - component: {fileID: 555068666}
   m_Layer: 0
   m_Name: Pawn (1)
   m_TagString: Untagged
@@ -9231,6 +9402,22 @@ MonoBehaviour:
   sceneViewId: 3
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &555068666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555068656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1001 &562327957
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9646,7 +9833,7 @@ MonoBehaviour:
   _editor: {fileID: 576566646}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -11107,6 +11294,7 @@ GameObject:
   - component: {fileID: 702761861}
   - component: {fileID: 702761863}
   - component: {fileID: 702761862}
+  - component: {fileID: 702761864}
   m_Layer: 0
   m_Name: Pawn (4)
   m_TagString: Untagged
@@ -11271,10 +11459,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 702761864}
   sceneViewId: 25
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &702761864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702761854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1001 &703418665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11851,6 +12056,7 @@ GameObject:
   - component: {fileID: 723705341}
   - component: {fileID: 723705343}
   - component: {fileID: 723705342}
+  - component: {fileID: 723705344}
   m_Layer: 0
   m_Name: Knight
   m_TagString: Untagged
@@ -12015,10 +12221,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 723705344}
   sceneViewId: 9
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &723705344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723705334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &729927180
 GameObject:
   m_ObjectHideFlags: 0
@@ -12069,7 +12292,7 @@ MonoBehaviour:
   _editor: {fileID: 729927183}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -13961,7 +14184,7 @@ MonoBehaviour:
   _editor: {fileID: 847285531}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.8745098, g: 0.8235294, b: 0.7607843, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -14904,7 +15127,7 @@ MonoBehaviour:
   _editor: {fileID: 903727196}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -15034,6 +15257,7 @@ GameObject:
   - component: {fileID: 904424646}
   - component: {fileID: 904424648}
   - component: {fileID: 904424647}
+  - component: {fileID: 904424649}
   m_Layer: 0
   m_Name: Pawn (2)
   m_TagString: Untagged
@@ -15198,10 +15422,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 904424649}
   sceneViewId: 8
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &904424649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904424639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &909390637
 GameObject:
   m_ObjectHideFlags: 0
@@ -15219,6 +15460,7 @@ GameObject:
   - component: {fileID: 909390644}
   - component: {fileID: 909390646}
   - component: {fileID: 909390645}
+  - component: {fileID: 909390647}
   m_Layer: 0
   m_Name: Queen
   m_TagString: Untagged
@@ -15383,10 +15625,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 909390647}
   sceneViewId: 7
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &909390647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 909390637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1001 &913224106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15626,7 +15885,7 @@ MonoBehaviour:
   _editor: {fileID: 930889804}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.8745098, g: 0.8235294, b: 0.7607843, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -16005,6 +16264,7 @@ GameObject:
   - component: {fileID: 942341088}
   - component: {fileID: 942341090}
   - component: {fileID: 942341089}
+  - component: {fileID: 942341091}
   m_Layer: 0
   m_Name: Pawn (4)
   m_TagString: Untagged
@@ -16169,10 +16429,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 942341091}
   sceneViewId: 6
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &942341091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942341081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1001 &949730689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16532,6 +16809,14 @@ PrefabInstance:
       propertyPath: _interactors.Array.data[1]
       value: 
       objectReference: {fileID: 1950450823}
+    - target: {fileID: 7079690332710969991, guid: c89b2c4e711f8a14ba3df7e4b3c71f12, type: 3}
+      propertyPath: isInsightPassthroughEnabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7079690332722676895, guid: c89b2c4e711f8a14ba3df7e4b3c71f12, type: 3}
+      propertyPath: m_ClearFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7079690332722676895, guid: c89b2c4e711f8a14ba3df7e4b3c71f12, type: 3}
       propertyPath: m_BackGroundColor.a
       value: 0
@@ -18022,6 +18307,7 @@ GameObject:
   - component: {fileID: 1038598155}
   - component: {fileID: 1038598157}
   - component: {fileID: 1038598156}
+  - component: {fileID: 1038598158}
   m_Layer: 0
   m_Name: Bishop (1)
   m_TagString: Untagged
@@ -18186,10 +18472,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 1038598158}
   sceneViewId: 5
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &1038598158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1038598148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &1040672539
 GameObject:
   m_ObjectHideFlags: 0
@@ -18260,6 +18563,7 @@ GameObject:
   - component: {fileID: 1040782160}
   - component: {fileID: 1040782162}
   - component: {fileID: 1040782161}
+  - component: {fileID: 1040782163}
   m_Layer: 0
   m_Name: Pawn (2)
   m_TagString: Untagged
@@ -18424,10 +18728,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 1040782163}
   sceneViewId: 24
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &1040782163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040782153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1001 &1047017584
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19151,7 +19472,7 @@ MonoBehaviour:
   _editor: {fileID: 1107725603}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -19795,6 +20116,7 @@ GameObject:
   - component: {fileID: 1181903601}
   - component: {fileID: 1181903603}
   - component: {fileID: 1181903602}
+  - component: {fileID: 1181903604}
   m_Layer: 0
   m_Name: Pawn (6)
   m_TagString: Untagged
@@ -19959,10 +20281,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 1181903604}
   sceneViewId: 32
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &1181903604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181903594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &1191694606
 GameObject:
   m_ObjectHideFlags: 0
@@ -20325,7 +20664,7 @@ MonoBehaviour:
   _editor: {fileID: 1204001601}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -20634,7 +20973,7 @@ MonoBehaviour:
   _editor: {fileID: 1235158791}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.8745098, g: 0.8235294, b: 0.7607843, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -20887,6 +21226,7 @@ GameObject:
   - component: {fileID: 1255326861}
   - component: {fileID: 1255326863}
   - component: {fileID: 1255326862}
+  - component: {fileID: 1255326864}
   m_Layer: 0
   m_Name: Pawn (5)
   m_TagString: Untagged
@@ -21051,10 +21391,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 1255326864}
   sceneViewId: 17
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &1255326864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255326854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &1257191265
 GameObject:
   m_ObjectHideFlags: 0
@@ -22013,6 +22370,7 @@ GameObject:
   - component: {fileID: 1316733032}
   - component: {fileID: 1316733034}
   - component: {fileID: 1316733033}
+  - component: {fileID: 1316733035}
   m_Layer: 0
   m_Name: Pawn
   m_TagString: Untagged
@@ -22177,10 +22535,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 1316733035}
   sceneViewId: 31
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &1316733035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316733025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1001 &1325701159
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22344,6 +22719,7 @@ GameObject:
   - component: {fileID: 1338437872}
   - component: {fileID: 1338437874}
   - component: {fileID: 1338437873}
+  - component: {fileID: 1338437875}
   m_Layer: 0
   m_Name: Pawn (6)
   m_TagString: Untagged
@@ -22508,10 +22884,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 1338437875}
   sceneViewId: 16
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &1338437875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338437865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &1339542745
 GameObject:
   m_ObjectHideFlags: 0
@@ -22562,7 +22955,7 @@ MonoBehaviour:
   _editor: {fileID: 1339542748}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -22725,7 +23118,7 @@ MonoBehaviour:
   _editor: {fileID: 1339848033}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.8745098, g: 0.8235294, b: 0.7607843, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -22855,6 +23248,7 @@ GameObject:
   - component: {fileID: 1341048531}
   - component: {fileID: 1341048533}
   - component: {fileID: 1341048532}
+  - component: {fileID: 1341048534}
   m_Layer: 0
   m_Name: Pawn (7)
   m_TagString: Untagged
@@ -23019,10 +23413,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 1341048534}
   sceneViewId: 15
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &1341048534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341048524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &1344489117
 GameObject:
   m_ObjectHideFlags: 0
@@ -23163,6 +23574,7 @@ GameObject:
   - component: {fileID: 1350656349}
   - component: {fileID: 1350656351}
   - component: {fileID: 1350656350}
+  - component: {fileID: 1350656352}
   m_Layer: 0
   m_Name: Rook
   m_TagString: Untagged
@@ -23327,10 +23739,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 1350656352}
   sceneViewId: 14
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &1350656352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350656342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1001 &1356517681
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24074,7 +24503,7 @@ MonoBehaviour:
   _editor: {fileID: 1387062318}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.8745098, g: 0.8235294, b: 0.7607843, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -24237,7 +24666,7 @@ MonoBehaviour:
   _editor: {fileID: 1391521323}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.8745098, g: 0.8235294, b: 0.7607843, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -24993,6 +25422,7 @@ GameObject:
   - component: {fileID: 1443430196}
   - component: {fileID: 1443430198}
   - component: {fileID: 1443430197}
+  - component: {fileID: 1443430199}
   m_Layer: 0
   m_Name: King
   m_TagString: Untagged
@@ -25157,10 +25587,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 1443430199}
   sceneViewId: 30
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &1443430199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1443430189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1001 &1443741078
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25410,7 +25857,7 @@ MonoBehaviour:
   _editor: {fileID: 1454271598}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -25573,7 +26020,7 @@ MonoBehaviour:
   _editor: {fileID: 1457216803}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.8745098, g: 0.8235294, b: 0.7607843, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -26204,7 +26651,7 @@ MonoBehaviour:
   _editor: {fileID: 1503958159}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -27432,7 +27879,7 @@ MonoBehaviour:
   _editor: {fileID: 1595984071}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.8745098, g: 0.8235294, b: 0.7607843, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -28199,6 +28646,7 @@ GameObject:
   - component: {fileID: 1632715964}
   - component: {fileID: 1632715966}
   - component: {fileID: 1632715965}
+  - component: {fileID: 1632715967}
   m_Layer: 0
   m_Name: Knight (1)
   m_TagString: Untagged
@@ -28363,10 +28811,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 1632715967}
   sceneViewId: 29
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &1632715967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1632715957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1001 &1640003740
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28487,7 +28952,7 @@ MonoBehaviour:
   _editor: {fileID: 1642940883}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -29052,7 +29517,7 @@ MonoBehaviour:
   _editor: {fileID: 1681178276}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.8745098, g: 0.8235294, b: 0.7607843, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -29255,6 +29720,7 @@ GameObject:
   - component: {fileID: 1693221618}
   - component: {fileID: 1693221620}
   - component: {fileID: 1693221619}
+  - component: {fileID: 1693221621}
   m_Layer: 0
   m_Name: Rook (1)
   m_TagString: Untagged
@@ -29419,10 +29885,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 1693221621}
   sceneViewId: 13
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &1693221621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1693221611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &1694408618
 GameObject:
   m_ObjectHideFlags: 0
@@ -29722,7 +30205,7 @@ MonoBehaviour:
   _editor: {fileID: 1719875301}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -30147,7 +30630,7 @@ MonoBehaviour:
   _editor: {fileID: 1734819323}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.8745098, g: 0.8235294, b: 0.7607843, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -30350,6 +30833,7 @@ GameObject:
   - component: {fileID: 1739034453}
   - component: {fileID: 1739034455}
   - component: {fileID: 1739034454}
+  - component: {fileID: 1739034456}
   m_Layer: 0
   m_Name: Queen
   m_TagString: Untagged
@@ -30514,10 +30998,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 1739034456}
   sceneViewId: 28
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &1739034456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739034446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1001 &1740239275
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31593,7 +32094,7 @@ MonoBehaviour:
   _editor: {fileID: 1827573578}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -33362,7 +33863,7 @@ MonoBehaviour:
   _editor: {fileID: 1965201557}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -33525,7 +34026,7 @@ MonoBehaviour:
   _editor: {fileID: 1967070154}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -33761,7 +34262,7 @@ MonoBehaviour:
   _editor: {fileID: 1973697609}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.8745098, g: 0.8235294, b: 0.7607843, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -34342,7 +34843,7 @@ MonoBehaviour:
   _editor: {fileID: 2011737228}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.8745098, g: 0.8235294, b: 0.7607843, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -34669,7 +35170,7 @@ MonoBehaviour:
   _editor: {fileID: 2032255994}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -35254,6 +35755,7 @@ GameObject:
   - component: {fileID: 2079161371}
   - component: {fileID: 2079161373}
   - component: {fileID: 2079161372}
+  - component: {fileID: 2079161374}
   m_Layer: 0
   m_Name: Pawn (1)
   m_TagString: Untagged
@@ -35418,10 +35920,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 2079161374}
   sceneViewId: 27
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &2079161374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079161364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &2082728705
 GameObject:
   m_ObjectHideFlags: 0
@@ -35696,6 +36215,7 @@ GameObject:
   - component: {fileID: 2094784224}
   - component: {fileID: 2094784226}
   - component: {fileID: 2094784225}
+  - component: {fileID: 2094784227}
   m_Layer: 0
   m_Name: Knight (1)
   m_TagString: Untagged
@@ -35860,10 +36380,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 2094784227}
   sceneViewId: 12
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &2094784227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094784217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &2099953619
 GameObject:
   m_ObjectHideFlags: 0
@@ -36037,6 +36574,7 @@ GameObject:
   - component: {fileID: 2113060163}
   - component: {fileID: 2113060165}
   - component: {fileID: 2113060164}
+  - component: {fileID: 2113060166}
   m_Layer: 0
   m_Name: Rook
   m_TagString: Untagged
@@ -36201,10 +36739,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 2113060166}
   sceneViewId: 26
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &2113060166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113060156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1 &2120170562
 GameObject:
   m_ObjectHideFlags: 0
@@ -36421,6 +36976,7 @@ GameObject:
   - component: {fileID: 2134355495}
   - component: {fileID: 2134355497}
   - component: {fileID: 2134355496}
+  - component: {fileID: 2134355498}
   m_Layer: 0
   m_Name: King
   m_TagString: Untagged
@@ -36585,10 +37141,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 2134355498}
   sceneViewId: 11
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &2134355498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134355488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!4 &108472237844721537
 Transform:
   m_ObjectHideFlags: 0
@@ -36752,7 +37325,7 @@ MonoBehaviour:
   _editor: {fileID: 4210572497531545309}
   _colorShaderPropertyName: _Color
   _normalColorState:
-    Color: {r: 0.83137256, g: 0.83137256, b: 0.83137256, a: 1}
+    Color: {r: 0.8745098, g: 0.8235294, b: 0.7607843, a: 1}
     ColorCurve:
       serializedVersion: 2
       m_Curve:
@@ -38874,6 +39447,7 @@ GameObject:
   - component: {fileID: 7218933505565345255}
   - component: {fileID: 6837428878564639102}
   - component: {fileID: 6837428878564639101}
+  - component: {fileID: 6837428878564639103}
   m_Layer: 0
   m_Name: Pawn
   m_TagString: Untagged
@@ -38911,10 +39485,27 @@ MonoBehaviour:
   Synchronization: 3
   OwnershipTransfer: 0
   observableSearch: 2
-  ObservedComponents: []
+  ObservedComponents:
+  - {fileID: 6837428878564639103}
   sceneViewId: 10
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &6837428878564639103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6837428878564639100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627855c7f81362d41938ffe0b1475957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizePosition: 1
+  m_SynchronizeRotation: 1
+  m_SynchronizeScale: 0
+  m_UseLocal: 1
 --- !u!1001 &7147530562470636682
 PrefabInstance:
   m_ObjectHideFlags: 0
